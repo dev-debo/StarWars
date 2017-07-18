@@ -1,0 +1,20 @@
+'use strict';
+ 
+angular.module('Home')
+ 
+.directive('planetDirective', function() {
+   //define the directive object
+  // var directive = {};
+   
+  return {
+    restrict: 'E',
+    scope: {
+       planetName: '@planetName',
+       planetSize:'@planetSize',
+       maxSize:'@maxSize'
+    },
+    templateUrl: 'modules/home/views/plenet.html',
+    replace:true
+  };
+   //return directive;
+});

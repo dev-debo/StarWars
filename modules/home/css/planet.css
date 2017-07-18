@@ -1,0 +1,28 @@
+body { background: url('galaxy.jpg') no-repeat center center fixed; }
+
+.planet-css{
+  margin: auto;
+  border-radius:50%;
+  content:"";
+  display:block;
+  background:#0b38ff;
+  background: -webkit-linear-gradient(left top, #0b38ff, #fcfcfc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0b38ff, #fcfcfc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0b38ff, #fcfcfc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0b38ff, #fcfcfc);
+  box-shadow: 2px 3px 8px 2px #545151;
+}
+
+.planet-contener{
+  float:left; color: #e7e7e7;
+  font-weight: 600;
+}
+.navbar-default {
+  opacity : 0.5;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus { 
+	color: #000; background: transparent; 
+}
+.navbar-default .navbar-nav a, .navbar-default .navbar-nav a:hover, .navbar-default .navbar-nav a:focus {
+	color: #000 !important; font-weight: 600;
+}

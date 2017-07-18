@@ -1,0 +1,16 @@
+
+<link rel="stylesheet" href="modules/home/css/planet.css" />    
+
+<form class="row">
+	<div class="col-lg-offset-3 col-lg-6 form-group">
+	<input class="form-control input-md" ng-model="planetSearch" type="text" placeholder="Search Planet...."/>	
+	</div>
+</form>
+<div class="row">
+	<div class="col-lg-12 text-center">
+	
+<planet-directive planet-name="{{planet.name}}" planet-size="{{planet.rotation_period*4}}" max-size="{{MaxWidth}}" ng-repeat="planet in Planets | filter: planetSearch"></planet-directive>
+	</div>
+</div>
+
+

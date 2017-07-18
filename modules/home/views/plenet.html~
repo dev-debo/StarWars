@@ -1,0 +1,11 @@
+
+<div class="planet-contener" style="width:{{maxSize}}px">
+
+<div class="planet-css" style="height:{{planetSize}}px;width:{{planetSize}}px">
+
+</div>
+	<span>
+	{{planetName}}
+	</span>
+</div>
+
